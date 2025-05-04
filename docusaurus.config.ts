@@ -40,7 +40,14 @@ const config: Config = {
           routeBasePath: "/",
           sidebarPath: "./sidebars.ts",
 
-          remarkPlugins: [[remarkLiveCodes, {}]],
+          remarkPlugins: [
+            [
+              remarkLiveCodes,
+              {
+                appUrl: "https://dev.livecodes.io",
+              },
+            ],
+          ],
         },
         blog: false,
         theme: {
