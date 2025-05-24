@@ -24,7 +24,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "rehype-raw": "^7.0.0",
-    "remark-livecodes": "0.2.1",
+    "remark-livecodes": "0.4.0",
     "remark-rehype": "^11.1.2"
   },
   "devDependencies": {

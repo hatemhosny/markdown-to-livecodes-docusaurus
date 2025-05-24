@@ -44,7 +44,7 @@ const config: Config = {
             [
               remarkLiveCodes,
               {
-                appUrl: "https://dev.livecodes.io",
+                /* options */
               },
             ],
           ],
